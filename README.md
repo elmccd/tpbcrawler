@@ -7,10 +7,12 @@ Install the module with: `npm install tpbcrawler`
 
 
 ## Documentation
-`getTorrentsInfo(path, callback)`
 
-`getTorrentInfo(id, callback)`
+###getTorrentsInfo(path, callback)
+Return array with torrents details or false in case of error.
 
+###getTorrentInfo(id, callback)
+Return object with torrent details or false in case of error.
 
 ## Examples
 
