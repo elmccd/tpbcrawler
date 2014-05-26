@@ -1,32 +1,35 @@
 {
-  "name": "tpbcrawler",
-  "version": "0.0.0",
-  "main": "lib/tablejson.js",
-  "description": "The best module ever.",
-  "homepage": "https://github.com/elmccd/tablejson",
-  "bugs": "https://github.com/elmccd/tablejson/issues",
-  "author": {
-    "name": "elmccd",
-    "email": "elmccd@gmail.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/elmccd/tablejson"
-  },
-  "license": "MIT",
-  "files": [
-    "lib"
-  ],
-  "keywords": [],
-  "devDependencies": {
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-contrib-nodeunit": "^0.3.3",
-    "grunt-contrib-watch": "^0.6.1",
-    "load-grunt-tasks": "^0.4.0",
-    "time-grunt": "^0.3.1",
-    "jshint-stylish": "^0.2.0"
-  },
-  "scripts": {
-    "test": "grunt"
-  }
+    "name": "tpbcrawler",
+    "version": "0.0.0",
+    "main": "lib/tpbcrawler.js",
+    "description": "The Pirate Bay crawler for Node.js",
+    "homepage": "https://github.com/elmccd/tpbcrawler",
+    "bugs": "https://github.com/elmccd/tpbcrawler/issues",
+    "author": {
+        "name": "Maciej Dudziński",
+        "email": "elmccd@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/elmccd/tpbcrawler"
+    },
+    "license": "MIT",
+    "files": [
+        "lib"
+    ],
+    "keywords": [],
+    "dependencies": {
+        "zlib": "*"
+    },
+    "devDependencies": {
+        "grunt-contrib-jshint": "^0.10.0",
+        "grunt-contrib-nodeunit": "^0.3.3",
+        "grunt-contrib-watch": "^0.6.1",
+        "load-grunt-tasks": "^0.4.0",
+        "time-grunt": "^0.3.1",
+        "jshint-stylish": "^0.2.0"
+    },
+    "scripts": {
+        "test": "grunt"
+    }
 }

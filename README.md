@@ -1,13 +1,13 @@
-# tablejson [![Build Status](https://secure.travis-ci.org/elmccd/tablejson.png?branch=master)](http://travis-ci.org/elmccd/tablejson)
+# TPBCrawler
 
-The best module ever.
+The Pirate Bay crawler for Node.js
 
 ## Getting Started
-Install the module with: `npm install tablejson`
+Install the module with: `npm install tpbcrawler`
 
 ```javascript
-var tablejson = require('tablejson');
-tablejson.awesome(); // "awesome"
+var tpbcrawler = require('tpbcrawler');
+tpbcrawler.awesome(); // "awesome"
 ```
 
 ## Documentation
@@ -23,4 +23,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 _(Nothing yet)_
 
 ## License
-Copyright (c) 2014 elmccd. Licensed under the MIT license.
+Copyright (c) 2014 Maciej Dudziński. Licensed under the MIT license.
