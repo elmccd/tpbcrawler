@@ -23,9 +23,9 @@ var tpbcrawler = require('../lib/tpbcrawler.js');
  */
 
 exports.getTopMusic = {
-    'getTopMusic': function (test) {
-        tpbcrawler.getTopMusic(function (result) {
-            test.equal(result.length, 100, 'Number of top torrents should equal 100');
+    'getTorrentsInfo': function (test) {
+        tpbcrawler.getTorrentsInfo('/search/arrow/0/99/0', function (result) {
+            test.ok(Array.isArray(result), 'Torrent list should be array');
             result.forEach(function (el) {
                 test.ok(typeof el.name !== 'undefined', "Name is set");
                 test.ok(isFinite(el.id), "Id is set");
@@ -47,7 +47,6 @@ exports.getTorrentInfo = {
     },
     'getFromInvalidData': function (test) {
         tpbcrawler.getTorrentInfo('wrong id', function (result) {
-
             test.ok(result === false, "Should return false");
             test.done();
         });
