@@ -17,7 +17,7 @@
     "files": [
         "lib"
     ],
-    "keywords": [],
+    "keywords": ["tpb", "the pirate bay", "torrent", "crawler"],
     "dependencies": {
         "zlib": "*"
     },
