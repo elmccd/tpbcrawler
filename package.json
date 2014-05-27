@@ -19,7 +19,7 @@
     ],
     "keywords": ["tpb", "the pirate bay", "torrent", "crawler"],
     "dependencies": {
-        "zlib": "*"
+
     },
     "devDependencies": {
         "grunt-contrib-jshint": "^0.10.0",
