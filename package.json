@@ -1,6 +1,6 @@
 {
     "name": "tpbcrawler",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "main": "lib/tpbcrawler.js",
     "description": "The Pirate Bay crawler for Node.js",
     "homepage": "https://github.com/elmccd/tpbcrawler",
